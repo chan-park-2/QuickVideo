@@ -14,6 +14,10 @@ body {
 	font-weight: bold;
 	margin: 0px;
 }
+.website-header a {
+	text-decoration: none;
+	color: white;
+}
 
 /* main */
 .apps {
