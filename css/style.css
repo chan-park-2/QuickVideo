@@ -25,6 +25,14 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.apps a:link {
+	text-decoration: none;
+}
+
+.apps a:visited {
+	text-decoration: none;
+}
+
 .apps p {
 	text-align: center;
 }
