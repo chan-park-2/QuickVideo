@@ -14,6 +14,22 @@ body {
 	font-weight: bold;
 	margin: 0px;
 }
+
+/* main */
+.apps {
+	/* center */
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.apps p {
+	text-align: center;
+}
+
+/* app */
 .app-name {
 	text-align: center;
 	color: black;
@@ -28,15 +44,15 @@ body {
 	width: 45%;
 }
 
-.link {
-	display: flex;
-	justify-content: center;
-}
-
 .screenshots {
 	display: flex;
 	justify-content: center;
 
+}
+
+.link {
+	display: flex;
+	justify-content: center;
 }
 
 .info {
@@ -49,6 +65,7 @@ body {
 	padding-right: 10px;
 }
 
+/* privacy */
 #privacy {
 	margin:auto;
 	width: 50%;
